@@ -2,7 +2,7 @@ class EmailAddressParser
  # attr_accessor 
   
   def parse
-   email.split(emails) 
+   email.split() 
   end   
   
 end   
